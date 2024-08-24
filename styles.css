@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background: linear-gradient(130deg, #fd0606, #020202);
+}
+
+.container{
+    margin-left: 1.8rem;
+    padding: 20px;
+    border-radius: 15px;
+    background: black;
+    border: 1px solid rgba(255, 255, 255, .5);
+    box-shadow: 13px 13px 20px #6a6e6e, -13px -13px 20px #161616;
+}
+
+.display{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row button{
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #00000020, -5px -5px 8px #050505;   
+}
+
+.row button:hover{
+    background: #fff;
+    box-shadow: 5px 5px 8px rgba(16, 16, 16, 1), inset -5px 8px #fff;
+}
+
+.display #screen{
+    margin-bottom: .5rem;
+    width: auto;
+    height: 70px;
+    font-size: 35px;
+    color: white;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #272828;
+    border-radius: 6px;
+    box-shadow: 8px 8px 8px #3e3f3f, -8px -8px 8px, inset #161616;
+}
+
+#eval{
+    background: orange;
+    color: #fff;
+}
+
+#eval:hover{
+    box-shadow: inset 5px 5px 8px rgb(254, 169, 11), inset -5px -5px 8px rgb(254, 169, 11);
+}
+
+#ac{
+    background: green;
+    color: #fff;
+}
+
+#ac:hover{
+    box-shadow: inset 5px 5px 8px green, inset -5px -5px 8px green;
+}
+
+#ce{
+    background: red;
+    color: #fff;
+}
+
+#ce:hover{
+    box-shadow: inset 5px 5px 8px red, inset -5px -5px 8px red;
+}
+
