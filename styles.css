@@ -16,6 +16,7 @@ body{
     background: black;
     border: 1px solid rgba(255, 255, 255, .5);
     box-shadow: 13px 13px 20px #6a6e6e, -13px -13px 20px #161616;
+    overflow: hidden;
 }
 
 .display{
@@ -86,3 +87,40 @@ body{
     box-shadow: inset 5px 5px 8px red, inset -5px -5px 8px red;
 }
 
+@media (max-width: 570px){
+ .container{
+    max-width: 80%;
+ }      
+
+ .row button{
+    width: 40px;
+    height: 20px;
+    margin: 4px;
+    box-shadow: none
+ }
+
+ .display #screen{
+    height: 50px;
+    width: 300px;
+ }
+}
+
+@media (max-width: 420px){
+    .container{
+       max-width: 60%;
+    }      
+   
+    .row button{
+       width: 30px;
+       height: 15px;
+       font-size: 10px;
+       margin: 2px;
+       box-shadow: none
+    }
+   
+    .display #screen{
+       height: 30px;
+       width: 200px;
+       font-size: 20px;
+    }
+   }
